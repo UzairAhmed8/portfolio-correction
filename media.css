@@ -1,5 +1,42 @@
-@media only screen and (min-width: 1900px) {
-    body{
-        background-color: red;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+body {
+    background-color: #373737;
+    color: white;
 }
+
+header {
+    background-image: url(imgs/download.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px;
+}
+
+#h2 {
+    font-family: "Modak", serif;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Chango", serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+
